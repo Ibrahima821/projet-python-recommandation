@@ -155,7 +155,7 @@ if st.session_state.page == 'home':
         img_url = img_path
 
     # --- DISPLAY SLIDE (HTML FLUSHED LEFT) ---
-    # IMPORTANT: Do not add spaces before the <div...> lines below!
+    
     st.markdown(f"""
 <div style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('{img_url}'); background-size: cover; background-position: center; padding: 60px; border-radius: 15px; margin-bottom: 20px; text-align: center; border: 1px solid #333; box-shadow: 0 10px 30px rgba(0,0,0,0.5); color: white;">
 <h1 style="font-size: 4em; font-weight: bold; text-shadow: 2px 2px 10px #000; margin-bottom: 10px;">{featured_movie['title']}</h1>
